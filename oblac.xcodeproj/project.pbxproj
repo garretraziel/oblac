@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1823ED1E19FA4E0D00D26865 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823ED1D19FA4E0D00D26865 /* AppDelegate.swift */; };
+		1823ED2019FA4E0D00D26865 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823ED1F19FA4E0D00D26865 /* ViewController.swift */; };
+		1823ED2319FA4E0D00D26865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1823ED2119FA4E0D00D26865 /* Main.storyboard */; };
+		1823ED2519FA4E0D00D26865 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1823ED2419FA4E0D00D26865 /* Images.xcassets */; };
+		1823ED2819FA4E0D00D26865 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1823ED2619FA4E0D00D26865 /* LaunchScreen.xib */; };
+		1823ED3419FA4E0D00D26865 /* oblacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823ED3319FA4E0D00D26865 /* oblacTests.swift */; };
+		1823ED3E19FA501500D26865 /* VpsCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823ED3D19FA501500D26865 /* VpsCellTableViewCell.swift */; };
+		1823ED4019FA523B00D26865 /* Vps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823ED3F19FA523B00D26865 /* Vps.swift */; };
+		18AE1D401A385E3C0034E93E /* pozadi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AE1D3F1A385E3C0034E93E /* pozadi.jpg */; };
+		18AE1D421A385F7B0034E93E /* OblacButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE1D411A385F7B0034E93E /* OblacButton.swift */; };
+		18B8B2B31A1F2C3300501599 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8B2B21A1F2C3300501599 /* DetailViewController.swift */; };
+		18B8B2B71A1F563300501599 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8B2B61A1F563300501599 /* HttpClient.swift */; };
+		18D0DA691A319BA90098B356 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 18D0DA5E1A319BA90098B356 /* Contents.json */; };
+		18D0DA6A1A319BA90098B356 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D0DA5F1A319BA90098B356 /* Icon-40.png */; };
+		18D0DA6B1A319BA90098B356 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D0DA601A319BA90098B356 /* Icon-40@2x.png */; };
+		18D0DA6C1A319BA90098B356 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D0DA611A319BA90098B356 /* Icon-40@3x.png */; };
+		18D0DA6D1A319BA90098B356 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D0DA621A319BA90098B356 /* Icon-60@2x.png */; };
+		18D0DA6E1A319BA90098B356 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D0DA631A319BA90098B356 /* Icon-60@3x.png */; };
+		18D0DA6F1A319BA90098B356 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D0DA641A319BA90098B356 /* Icon-76.png */; };
+		18D0DA701A319BA90098B356 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D0DA651A319BA90098B356 /* Icon-76@2x.png */; };
+		18D0DA711A319BA90098B356 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D0DA661A319BA90098B356 /* Icon-Small.png */; };
+		18D0DA721A319BA90098B356 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D0DA671A319BA90098B356 /* Icon-Small@2x.png */; };
+		18D0DA731A319BA90098B356 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D0DA681A319BA90098B356 /* Icon-Small@3x.png */; };
+		18D0DA751A31B0BE0098B356 /* color_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0DA741A31B0BE0098B356 /* color_extension.swift */; };
+		65759D8F1A1FF15700172EE9 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65759D8E1A1FF15700172EE9 /* JSON.swift */; };
+		65981B741A2E41BA00075D33 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65981B711A2E41BA00075D33 /* GCDAsyncSocket.m */; };
+		65981B751A2E41BA00075D33 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65981B731A2E41BA00075D33 /* GCDAsyncUdpSocket.m */; };
+		659937201A2E53830034C4DF /* ServiceObtainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6599371F1A2E53830034C4DF /* ServiceObtainer.swift */; };
+		65B081011A239D540030B6D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B081001A239D540030B6D2 /* LoginViewController.swift */; };
+		65C8BCDF1A2BD1EB00575FE7 /* arch.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C8BCD71A2BD1EB00575FE7 /* arch.png */; };
+		65C8BCE01A2BD1EB00575FE7 /* centos.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C8BCD81A2BD1EB00575FE7 /* centos.png */; };
+		65C8BCE11A2BD1EB00575FE7 /* debian.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C8BCD91A2BD1EB00575FE7 /* debian.png */; };
+		65C8BCE51A2BD1EB00575FE7 /* scientific.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C8BCDD1A2BD1EB00575FE7 /* scientific.png */; };
+		65C8BCE61A2BD1EB00575FE7 /* ubuntu.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C8BCDE1A2BD1EB00575FE7 /* ubuntu.png */; };
+		65C8BCEA1A2BD6CC00575FE7 /* fedora.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C8BCE71A2BD6CC00575FE7 /* fedora.png */; };
+		65C8BCEB1A2BD6CC00575FE7 /* gentoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C8BCE81A2BD6CC00575FE7 /* gentoo.png */; };
+		65C8BCEC1A2BD6CC00575FE7 /* opensuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C8BCE91A2BD6CC00575FE7 /* opensuse.png */; };
+		65C8BCEE1A2BDA3700575FE7 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C8BCED1A2BDA3700575FE7 /* splash.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1823ED2E19FA4E0D00D26865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1823ED1019FA4E0D00D26865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1823ED1719FA4E0D00D26865;
+			remoteInfo = oblac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1823ED1819FA4E0D00D26865 /* oblac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oblac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1823ED1C19FA4E0D00D26865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1823ED1D19FA4E0D00D26865 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1823ED1F19FA4E0D00D26865 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1823ED2219FA4E0D00D26865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1823ED2419FA4E0D00D26865 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1823ED2719FA4E0D00D26865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1823ED2D19FA4E0D00D26865 /* oblacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oblacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1823ED3219FA4E0D00D26865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1823ED3319FA4E0D00D26865 /* oblacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oblacTests.swift; sourceTree = "<group>"; };
+		1823ED3D19FA501500D26865 /* VpsCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VpsCellTableViewCell.swift; sourceTree = "<group>"; };
+		1823ED3F19FA523B00D26865 /* Vps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vps.swift; sourceTree = "<group>"; };
+		18AE1D3F1A385E3C0034E93E /* pozadi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pozadi.jpg; sourceTree = "<group>"; };
+		18AE1D411A385F7B0034E93E /* OblacButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OblacButton.swift; sourceTree = "<group>"; };
+		18B8B2B21A1F2C3300501599 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		18B8B2B61A1F563300501599 /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		18D0DA5E1A319BA90098B356 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		18D0DA5F1A319BA90098B356 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		18D0DA601A319BA90098B356 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		18D0DA611A319BA90098B356 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		18D0DA621A319BA90098B356 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		18D0DA631A319BA90098B356 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		18D0DA641A319BA90098B356 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		18D0DA651A319BA90098B356 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		18D0DA661A319BA90098B356 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		18D0DA671A319BA90098B356 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		18D0DA681A319BA90098B356 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		18D0DA741A31B0BE0098B356 /* color_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = color_extension.swift; sourceTree = "<group>"; };
+		65759D8E1A1FF15700172EE9 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		65981B6F1A2E41B900075D33 /* oblac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oblac-Bridging-Header.h"; sourceTree = "<group>"; };
+		65981B701A2E41BA00075D33 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		65981B711A2E41BA00075D33 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		65981B721A2E41BA00075D33 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		65981B731A2E41BA00075D33 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		6599371F1A2E53830034C4DF /* ServiceObtainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceObtainer.swift; sourceTree = "<group>"; };
+		65B081001A239D540030B6D2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		65C8BCD71A2BD1EB00575FE7 /* arch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arch.png; sourceTree = "<group>"; };
+		65C8BCD81A2BD1EB00575FE7 /* centos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centos.png; sourceTree = "<group>"; };
+		65C8BCD91A2BD1EB00575FE7 /* debian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = debian.png; sourceTree = "<group>"; };
+		65C8BCDD1A2BD1EB00575FE7 /* scientific.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scientific.png; sourceTree = "<group>"; };
+		65C8BCDE1A2BD1EB00575FE7 /* ubuntu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ubuntu.png; sourceTree = "<group>"; };
+		65C8BCE71A2BD6CC00575FE7 /* fedora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fedora.png; sourceTree = "<group>"; };
+		65C8BCE81A2BD6CC00575FE7 /* gentoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gentoo.png; sourceTree = "<group>"; };
+		65C8BCE91A2BD6CC00575FE7 /* opensuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opensuse.png; sourceTree = "<group>"; };
+		65C8BCED1A2BDA3700575FE7 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1823ED1519FA4E0D00D26865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1823ED2A19FA4E0D00D26865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1823ED0F19FA4E0D00D26865 = {
+			isa = PBXGroup;
+			children = (
+				1823ED1A19FA4E0D00D26865 /* oblac */,
+				1823ED3019FA4E0D00D26865 /* oblacTests */,
+				1823ED1919FA4E0D00D26865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1823ED1919FA4E0D00D26865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1823ED1819FA4E0D00D26865 /* oblac.app */,
+				1823ED2D19FA4E0D00D26865 /* oblacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1823ED1A19FA4E0D00D26865 /* oblac */ = {
+			isa = PBXGroup;
+			children = (
+				65759D8E1A1FF15700172EE9 /* JSON.swift */,
+				18AE1D411A385F7B0034E93E /* OblacButton.swift */,
+				18B8B2B61A1F563300501599 /* HttpClient.swift */,
+				1823ED1D19FA4E0D00D26865 /* AppDelegate.swift */,
+				1823ED1F19FA4E0D00D26865 /* ViewController.swift */,
+				65C8BCD61A2BD1EB00575FE7 /* images */,
+				1823ED2119FA4E0D00D26865 /* Main.storyboard */,
+				18D0DA741A31B0BE0098B356 /* color_extension.swift */,
+				659937231A2E6AD00034C4DF /* CocoaAsyncSocket */,
+				65B081001A239D540030B6D2 /* LoginViewController.swift */,
+				18B8B2B21A1F2C3300501599 /* DetailViewController.swift */,
+				1823ED2419FA4E0D00D26865 /* Images.xcassets */,
+				18D0DA5D1A319BA90098B356 /* AppIcon.appiconset */,
+				1823ED2619FA4E0D00D26865 /* LaunchScreen.xib */,
+				1823ED1B19FA4E0D00D26865 /* Supporting Files */,
+				1823ED3D19FA501500D26865 /* VpsCellTableViewCell.swift */,
+				1823ED3F19FA523B00D26865 /* Vps.swift */,
+				6599371F1A2E53830034C4DF /* ServiceObtainer.swift */,
+			);
+			path = oblac;
+			sourceTree = "<group>";
+		};
+		1823ED1B19FA4E0D00D26865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1823ED1C19FA4E0D00D26865 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1823ED3019FA4E0D00D26865 /* oblacTests */ = {
+			isa = PBXGroup;
+			children = (
+				1823ED3319FA4E0D00D26865 /* oblacTests.swift */,
+				1823ED3119FA4E0D00D26865 /* Supporting Files */,
+			);
+			path = oblacTests;
+			sourceTree = "<group>";
+		};
+		1823ED3119FA4E0D00D26865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1823ED3219FA4E0D00D26865 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D0DA5D1A319BA90098B356 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				18D0DA5E1A319BA90098B356 /* Contents.json */,
+				18D0DA5F1A319BA90098B356 /* Icon-40.png */,
+				18D0DA601A319BA90098B356 /* Icon-40@2x.png */,
+				18D0DA611A319BA90098B356 /* Icon-40@3x.png */,
+				18D0DA621A319BA90098B356 /* Icon-60@2x.png */,
+				18D0DA631A319BA90098B356 /* Icon-60@3x.png */,
+				18D0DA641A319BA90098B356 /* Icon-76.png */,
+				18D0DA651A319BA90098B356 /* Icon-76@2x.png */,
+				18D0DA661A319BA90098B356 /* Icon-Small.png */,
+				18D0DA671A319BA90098B356 /* Icon-Small@2x.png */,
+				18D0DA681A319BA90098B356 /* Icon-Small@3x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		659937231A2E6AD00034C4DF /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				65981B701A2E41BA00075D33 /* GCDAsyncSocket.h */,
+				65981B6F1A2E41B900075D33 /* oblac-Bridging-Header.h */,
+				65981B711A2E41BA00075D33 /* GCDAsyncSocket.m */,
+				65981B721A2E41BA00075D33 /* GCDAsyncUdpSocket.h */,
+				65981B731A2E41BA00075D33 /* GCDAsyncUdpSocket.m */,
+			);
+			name = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		65C8BCD61A2BD1EB00575FE7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				65C8BCED1A2BDA3700575FE7 /* splash.png */,
+				65C8BCE71A2BD6CC00575FE7 /* fedora.png */,
+				65C8BCE81A2BD6CC00575FE7 /* gentoo.png */,
+				18AE1D3F1A385E3C0034E93E /* pozadi.jpg */,
+				65C8BCE91A2BD6CC00575FE7 /* opensuse.png */,
+				65C8BCD71A2BD1EB00575FE7 /* arch.png */,
+				65C8BCD81A2BD1EB00575FE7 /* centos.png */,
+				65C8BCD91A2BD1EB00575FE7 /* debian.png */,
+				65C8BCDD1A2BD1EB00575FE7 /* scientific.png */,
+				65C8BCDE1A2BD1EB00575FE7 /* ubuntu.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1823ED1719FA4E0D00D26865 /* oblac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1823ED3719FA4E0D00D26865 /* Build configuration list for PBXNativeTarget "oblac" */;
+			buildPhases = (
+				1823ED1419FA4E0D00D26865 /* Sources */,
+				1823ED1519FA4E0D00D26865 /* Frameworks */,
+				1823ED1619FA4E0D00D26865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oblac;
+			productName = oblac;
+			productReference = 1823ED1819FA4E0D00D26865 /* oblac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1823ED2C19FA4E0D00D26865 /* oblacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1823ED3A19FA4E0D00D26865 /* Build configuration list for PBXNativeTarget "oblacTests" */;
+			buildPhases = (
+				1823ED2919FA4E0D00D26865 /* Sources */,
+				1823ED2A19FA4E0D00D26865 /* Frameworks */,
+				1823ED2B19FA4E0D00D26865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1823ED2F19FA4E0D00D26865 /* PBXTargetDependency */,
+			);
+			name = oblacTests;
+			productName = oblacTests;
+			productReference = 1823ED2D19FA4E0D00D26865 /* oblacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1823ED1019FA4E0D00D26865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = GVID;
+				TargetAttributes = {
+					1823ED1719FA4E0D00D26865 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					1823ED2C19FA4E0D00D26865 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 1823ED1719FA4E0D00D26865;
+					};
+				};
+			};
+			buildConfigurationList = 1823ED1319FA4E0D00D26865 /* Build configuration list for PBXProject "oblac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1823ED0F19FA4E0D00D26865;
+			productRefGroup = 1823ED1919FA4E0D00D26865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1823ED1719FA4E0D00D26865 /* oblac */,
+				1823ED2C19FA4E0D00D26865 /* oblacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1823ED1619FA4E0D00D26865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AE1D401A385E3C0034E93E /* pozadi.jpg in Resources */,
+				18D0DA6E1A319BA90098B356 /* Icon-60@3x.png in Resources */,
+				65C8BCE11A2BD1EB00575FE7 /* debian.png in Resources */,
+				1823ED2319FA4E0D00D26865 /* Main.storyboard in Resources */,
+				65C8BCEC1A2BD6CC00575FE7 /* opensuse.png in Resources */,
+				18D0DA701A319BA90098B356 /* Icon-76@2x.png in Resources */,
+				65C8BCDF1A2BD1EB00575FE7 /* arch.png in Resources */,
+				18D0DA731A319BA90098B356 /* Icon-Small@3x.png in Resources */,
+				65C8BCEE1A2BDA3700575FE7 /* splash.png in Resources */,
+				18D0DA6D1A319BA90098B356 /* Icon-60@2x.png in Resources */,
+				18D0DA6B1A319BA90098B356 /* Icon-40@2x.png in Resources */,
+				18D0DA6C1A319BA90098B356 /* Icon-40@3x.png in Resources */,
+				65C8BCE51A2BD1EB00575FE7 /* scientific.png in Resources */,
+				65C8BCEA1A2BD6CC00575FE7 /* fedora.png in Resources */,
+				18D0DA711A319BA90098B356 /* Icon-Small.png in Resources */,
+				18D0DA721A319BA90098B356 /* Icon-Small@2x.png in Resources */,
+				1823ED2819FA4E0D00D26865 /* LaunchScreen.xib in Resources */,
+				65C8BCE61A2BD1EB00575FE7 /* ubuntu.png in Resources */,
+				65C8BCEB1A2BD6CC00575FE7 /* gentoo.png in Resources */,
+				65C8BCE01A2BD1EB00575FE7 /* centos.png in Resources */,
+				1823ED2519FA4E0D00D26865 /* Images.xcassets in Resources */,
+				18D0DA6F1A319BA90098B356 /* Icon-76.png in Resources */,
+				18D0DA691A319BA90098B356 /* Contents.json in Resources */,
+				18D0DA6A1A319BA90098B356 /* Icon-40.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1823ED2B19FA4E0D00D26865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1823ED1419FA4E0D00D26865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1823ED2019FA4E0D00D26865 /* ViewController.swift in Sources */,
+				1823ED4019FA523B00D26865 /* Vps.swift in Sources */,
+				18B8B2B31A1F2C3300501599 /* DetailViewController.swift in Sources */,
+				18B8B2B71A1F563300501599 /* HttpClient.swift in Sources */,
+				65B081011A239D540030B6D2 /* LoginViewController.swift in Sources */,
+				659937201A2E53830034C4DF /* ServiceObtainer.swift in Sources */,
+				1823ED1E19FA4E0D00D26865 /* AppDelegate.swift in Sources */,
+				65981B751A2E41BA00075D33 /* GCDAsyncUdpSocket.m in Sources */,
+				65981B741A2E41BA00075D33 /* GCDAsyncSocket.m in Sources */,
+				1823ED3E19FA501500D26865 /* VpsCellTableViewCell.swift in Sources */,
+				65759D8F1A1FF15700172EE9 /* JSON.swift in Sources */,
+				18AE1D421A385F7B0034E93E /* OblacButton.swift in Sources */,
+				18D0DA751A31B0BE0098B356 /* color_extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1823ED2919FA4E0D00D26865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1823ED3419FA4E0D00D26865 /* oblacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1823ED2F19FA4E0D00D26865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1823ED1719FA4E0D00D26865 /* oblac */;
+			targetProxy = 1823ED2E19FA4E0D00D26865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1823ED2119FA4E0D00D26865 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1823ED2219FA4E0D00D26865 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1823ED2619FA4E0D00D26865 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1823ED2719FA4E0D00D26865 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1823ED3519FA4E0D00D26865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1823ED3619FA4E0D00D26865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1823ED3819FA4E0D00D26865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = oblac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "oblac/oblac-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1823ED3919FA4E0D00D26865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = oblac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "oblac/oblac-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1823ED3B19FA4E0D00D26865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = oblacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oblac.app/oblac";
+			};
+			name = Debug;
+		};
+		1823ED3C19FA4E0D00D26865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = oblacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oblac.app/oblac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1823ED1319FA4E0D00D26865 /* Build configuration list for PBXProject "oblac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1823ED3519FA4E0D00D26865 /* Debug */,
+				1823ED3619FA4E0D00D26865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1823ED3719FA4E0D00D26865 /* Build configuration list for PBXNativeTarget "oblac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1823ED3819FA4E0D00D26865 /* Debug */,
+				1823ED3919FA4E0D00D26865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1823ED3A19FA4E0D00D26865 /* Build configuration list for PBXNativeTarget "oblacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1823ED3B19FA4E0D00D26865 /* Debug */,
+				1823ED3C19FA4E0D00D26865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1823ED1019FA4E0D00D26865 /* Project object */;
+}
